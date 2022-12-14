@@ -1,0 +1,153 @@
+Antros užduoties tikslas - išmokti dirbti su failine sistema panaudojant DOS operacinės sistemos servisą.		 - IS NOT A PALINDROME
+ Visos antros užduoties programos turėtų elgtis kaip tvarkingos programos, t.		 - IS NOT A PALINDROME
+y.		 - SKIPPED
+
+
+    Jei komandų eilutėje perduoti failų vardai, turi apdoroti visus tuos failus iš eilės.		 - IS NOT A PALINDROME
+
+    Jei komandų eilutėje nėra argumentų, apdorojamas stdin (duomenys skaitomi iš standartinio įvedimo įrenginio).		 - IS NOT A PALINDROME
+
+    Išimtis gali būti konverteriai (pvz.		 - IS NOT A PALINDROME
+ asm2html) - jie gali tikėtis komandų eilutėje vieno failo vardo, o jei jo neranda, išspausdinti pagalbos pranešimą.		 - IS NOT A PALINDROME
+
+    Programos turi priimti /? parametrą, o jį pateikus, išspausdinti pagalbos pranešimą.		 - IS NOT A PALINDROME
+
+    Skaitymas iš failo privalo būti vykdomas buferiais.		 - IS NOT A PALINDROME
+
+
+    Programa, kurios parametrai - failų vardai.		 - IS NOT A PALINDROME
+ Išveda kiekvieno failo statistinius duomenis: kiek buvo simbolių, kiek buvo žodžių, kiek mažųjų raidžių, kiek didžiųjų.		 - IS NOT A PALINDROME
+
+    Programa, kurios pirmas ir antras parametrai - eilutės (numeriai eilučių), visi kiti - failų vardai.		 - IS NOT A PALINDROME
+ Visuose failuose pirma įvesta eilutė pakeičiama antrąja.		 - IS NOT A PALINDROME
+
+    Pirmas parametras - eilutė (numeriai eilučių), visi kiti - failų vardai.		 - IS NOT A PALINDROME
+ Programa išveda tik tas failų eilutes, kuriose yra pirmuoju parametru nurodyta eilutė.		 - IS NOT A PALINDROME
+ Jei nėra parametrų, spausdina pagalbos pranešimą.		 - IS NOT A PALINDROME
+ Jei failų daugiau negu vienas, tai prieš kiekvieną išvedamą eilutę turi būti spausdinamas failo vardas.		 - IS NOT A PALINDROME
+ Jei nurodyta tik eilutė - pirmasis parametras,- bet nėra failų, skaito stdin.		 - IS NOT A PALINDROME
+
+    Programa, kurios pirmasis parametras - skaičius, visi kiti - failų vardai.		 - IS NOT A PALINDROME
+ Visus failus suskaidome į gabalus, kuriuos sudedame į failus, o jų pavadinimų priekyje įrašome bloko pavadinimą.		 - IS NOT A PALINDROME
+ Pvz.		 - SKIPPED
+: jei eilutė yra split 200 failas.		 - IS NOT A PALINDROME
+dat, tuomet failą failas.		 - IS NOT A PALINDROME
+dat skaldomas po 200 simbolių ir sukuriami failai 1failas.		 - IS NOT A PALINDROME
+dat, 2failas.		 - IS NOT A PALINDROME
+dat, ir t.		 - IS NOT A PALINDROME
+t.		 - SKIPPED
+
+    Programa, kurios parametrai - failų vardai.		 - IS NOT A PALINDROME
+ Programa ieško eilučių, kuriose yra ilgesnių už 5 simbolius palindromų (didžiosios/mažosios raidės, tarpai ir skyryba - ignoruojami).		 - IS NOT A PALINDROME
+ Palindromai tai tokios frazės, kuriuos ir iš priekio ir iš galo skaitomos vienodai: "sėdėk užu kėdės", "a roza upala na lapu Azora".		 - IS NOT A PALINDROME
+
+    Programa, palyginanti du failus (fcomp).		 - IS NOT A PALINDROME
+ Programa lygina nurodytus failus ir į stdout (standartinį išvedimo įrenginį) išveda nesutampančius simbolius bei jų pozicijas nuo failo pradžios.		 - IS NOT A PALINDROME
+ Pvz.		 - SKIPPED
+: fcomp file1.		 - IS NOT A PALINDROME
+txt file2.		 - IS NOT A PALINDROME
+txt išvestų į ekraną nesutampančius failų „file1.		 - IS NOT A PALINDROME
+txt“ ir „file2.		 - IS NOT A PALINDROME
+txt“ simbolius ir jų pozicijas.		 - IS NOT A PALINDROME
+ ENGLISH: Write a program in Intel x86 assembly for DOS operating system that compares two files (fcomp).		 - IS NOT A PALINDROME
+ Program should compare files given to program as parameters and print differing characters and their positions to stdout (Standart Output Stream).		 - IS NOT A PALINDROME
+
+    Programa skaito tekstą ir formatuoja pastraipas.		 - IS NOT A PALINDROME
+ Į kiekvieną eilutę bando sukišti maksimumą žodžių taip, kad eilutės ilgis neviršytų 75 simbolių.		 - IS NOT A PALINDROME
+ Tarpas eilutės pradžioje ar tuščia eilutė laikomi naujos pastraipos pradžia.		 - IS NOT A PALINDROME
+
+    Programa, pateikianti skaitomo failo šešioliktainį dump‘ą (žemiau yra pateiktas paaiškinamasis pavyzdys).		 - IS NOT A PALINDROME
+
+    Programa skaito tekstą, atspausdina pirmus jo ~600 (kiek telpa) baitų spirale (žemiau yra pateiktas paaiškinamasis pavyzdys).		 - IS NOT A PALINDROME
+ Neleidžiama naudoti BIOS‘o konsolės valdymo.		 - IS NOT A PALINDROME
+ Reikia suformuoti rezultatą buferyje atmintyje ir atspausdinti į standartinį išvedimą.		 - IS NOT A PALINDROME
+
+    Skaitomas XML failas, išvedamas gražiai suformatuotas jo tekstas: kiekvienas įdėtas tagas pastumtas dviem simboliais, atributai, netelpantys vienoje eilutėje, gražiai sulygiuoti (žemiau yra pateiktas paaiškinamasis pavyzdys).		 - IS NOT A PALINDROME
+
+    Asemblerio išeities tekstų syntax highlight‘as.		 - IS NOT A PALINDROME
+ Skaito asemblerio išeities tekstą, rašo validų HTML failą, kuriame vaizduojamas tas asemblerinis failas nuspalvinant sintaksės elementus: žymes, instrukcijas, registrus, betarpiškus operandus ir eilučių literalus, komentarus.		 - IS NOT A PALINDROME
+
+    Paskalio išeities tekstų syntax highlight‘as.		 - IS NOT A PALINDROME
+ Skaito paskalio išeities tekstą, rašo validų HTML failą, kuriame vaizduojamas tas paskalio failas nuspalvinant sintaksės elementus: rezervuotus žodžius, skaičius, stringus bei komentarus.		 - IS NOT A PALINDROME
+
+    Parašykite programą, randančią duotoje dvimatės erdvės taškų aibėje tokius taškų poaibius po keturis, kurie sudaro kvadratus.		 - IS NOT A PALINDROME
+ Laikyti, kad kvadrato plotas būtinai daugiau už 0.		 - IS NOT A PALINDROME
+ Taškų koordinatės turi būti nuskaitomos iš failo, paduodamo programai pirmuoju parametru.		 - IS NOT A PALINDROME
+ Taškų, sudarančių kvadratus, poaibiai po keturis turi būti išvedami į failą, nurodomą antru programos parametru.		 - IS NOT A PALINDROME
+ Išvedimo failo kiekvienos eilutės formatas: (, ) (, ) (, ) (, ).		 - IS NOT A PALINDROME
+ Koordinatės - ne tik sveiki bet ir realūs skaičiai.		 - IS NOT A PALINDROME
+ Atliekant skaičiavimus naudoti matematinį koprocesorių.		 - IS NOT A PALINDROME
+ ENGLISH: Write a program in Intel x86 assembly for DOS operating system that finds such 2D (two dimensional) space point subsets of four that forms squares with area greater than zero from the given set of 2D (two dimensional) space points.		 - IS NOT A PALINDROME
+ Coordinates (x and y pairs) of points are to be read from file given to program as first parameter.		 - IS NOT A PALINDROME
+ Point subsets forming squares are to be output to the file given to program as a second parameter.		 - IS NOT A PALINDROME
+ Format of a single line in an output file shoud be as follows: (, ) (, ) (, ) (, ).		 - IS NOT A PALINDROME
+ Coordinates should be not only signed and unsigned integers but also real numbers.		 - IS NOT A PALINDROME
+ That is why using Intel 8087 mathematical coprocessor for calculations is required.		 - IS NOT A PALINDROME
+
+    Parašykite programą, išvedančią registro DX turinį kaip du simbolius į standartinį išvedimo srautą.		 - IS NOT A PALINDROME
+ Sukompiliuokite programą panaudodami TASM raktą /l tam, kad sugeneruotumėte programos listingo failą.		 - IS NOT A PALINDROME
+ Parašykite kitą programą, nuskaitančią parametru pateikto pirmosios programos listingo failo fragmentą, pažymėtą specialiomis pradžios ir pabaigos žymėmis (žymes sugalvoti patiems).		 - IS NOT A PALINDROME
+ Nuskaitoma tik ta listingo failo fragmento kiekvienos eilutės dalis, kurioje pateikiamas komandos mašininis kodas šešioliktainėje sistemoje.		 - IS NOT A PALINDROME
+ Nuskaitytą fragmentą įkelti į atmintį ir besąlygiškai perduoti valdymą jam.		 - IS NOT A PALINDROME
+ Pasibaigus fragmento kodui valdymas turi būti grąžintas viena instrukcija toliau nei kad buvo prieš valdymo perdavimą įkeltam fragmentui.		 - IS NOT A PALINDROME
+ Fragmento kodas išveda registro DX reikšmę į standartinį išvedimo srautą.		 - IS NOT A PALINDROME
+ Antroji programa turi pasirūpinti, kad fragmento išvedimas būtų nukreipiamas į antruoju parametru jai pateikiamą failą.		 - IS NOT A PALINDROME
+
+    Parašykite programą, skaitančią pirmuoju parametru pateikiamą failą po vieną žodį ir išvedančią kiekvieną nuskaitytą žodį didžiosiomis raidėmis ir einamąjį sistemos laiką į antruoju parametru nurodytą failą, kurio kiekvienos eilutės formatas yra: <žodis> - .		 - IS NOT A PALINDROME
+ Laikas nurodomas milisekundžių tikslumu (žmogui suprantamu formatu).		 - IS NOT A PALINDROME
+ Išvedimo failo viršuje nurodykite žodžio nuskaitymo iš failo trukmės vidurkį.		 - IS NOT A PALINDROME
+ ENGLISH: Write a program in Intel x86 assembly for DOS operating system that reads file given to program as first parameter and outputs every word in uppercase with current system timestamp to the file given to program as second parameter.		 - IS NOT A PALINDROME
+ Format of every single line in output file should be as follows: - .		 - IS NOT A PALINDROME
+ System timestamp should be given to miliseconds in human-readable format.		 - IS NOT A PALINDROME
+ At the top of output file program should print an average time that CPU took for word reading from file.		 - IS NOT A PALINDROME
+
+    Parašykite programą, skaitančią pirmuoju parametru pateikiamą failą ir sukeičiančią vietomis antruoju bei trečiuoju parametrais nurodomas failo eilutes.		 - IS NOT A PALINDROME
+
+    Parašykite programą, kurios pirmasis parametras - skaičius, visi kiti - failų vardai.		 - IS NOT A PALINDROME
+ Pirmasis parametras nurodo rėmelio, kuriuo reikia įrėminti failo turinį, storį.		 - IS NOT A PALINDROME
+ Storis matuojamas simbolių skaičiumi (horizontaliu atveju) arba eilučių skaičiumi (vertikaliu atveju).		 - IS NOT A PALINDROME
+ Rėmelio simbolį galite pasirinkti patys.		 - IS NOT A PALINDROME
+
+    Parašykite programą, kurios pirmasis parametras skaičius, visi kiti - failų vardai.		 - IS NOT A PALINDROME
+ Pirmasis parametras nurodo kvadrato, kuriuo reikia centruotai uždengti failo turinį, kraštinės ilgį.		 - IS NOT A PALINDROME
+ Uždengiančiojo kvadrato simbolį galite pasirinkti patys.		 - IS NOT A PALINDROME
+
+    Parašykite programą, kurios pirmasis parametras raidžių intervalas (pavyzdžiui, a-f), o visi kiti - failų vardai.		 - IS NOT A PALINDROME
+ Programa skaito parametrais nurodytus failus ir rezultatų faile išveda sąrašą žodžių, prasidedančių raidėmis iš nurodyto intervalo.		 - IS NOT A PALINDROME
+ Viename rezultatų faile pateikiamas sąrašas žodžių iš visų failų be pasikartojimų ir išrūšiuotas abėcėlės tvarka.		 - IS NOT A PALINDROME
+ Šalia kiekvieno žodžio turi būti atspausdinamas skaičius, reiškiantis, kiek kartų žodis pasikartojo visuose nurodytuose failuose kartu.		 - IS NOT A PALINDROME
+ Taip pat rezultatų faile turi būti pateiktas ir antras žodžių ir jų pasikartojimų skaičiaus sąrašas, tik antrą kartą sąrašas pateikiamas išrūšiuotas pasikartojimų mažėjimo tvarka.		 - IS NOT A PALINDROME
+
+    Parašykite programą, kurios parametrai - failų vardai.		 - IS NOT A PALINDROME
+ Programa skaito kiekvieną failą ir jo teksto simbolius perrašo atvirkščia tvarka tame pačiame faile.		 - IS NOT A PALINDROME
+ Negalima nuskaityti viso teksto ir nuo buferio galo surašyti atgal į failą.		 - IS NOT A PALINDROME
+ Teksto sukeitimui galima naudoti max.		 - IS NOT A PALINDROME
+ du trumpus (tarkime, 100B ilgio) buferius, jų pagalba organizuojant skaitymą ir rašymą tame pačiame faile.		 - IS NOT A PALINDROME
+
+    Parašykite programą, kurios parametrai - pilni keliai iki norimų nagrinėti katalogų.		 - IS NOT A PALINDROME
+ Programa sukuria rezultatų failą, kuriame pateikia failų, esančių nagrinėtuose kataloguose, sąrašą, išrūšiuotą pagal failo modifikavimo datą mažėjimo tvarka.		 - IS NOT A PALINDROME
+ Šalia failo sąraše turi būti nurodoma failo modifikavimo data ir laikas.		 - IS NOT A PALINDROME
+
+    Parašykite programą, kurios parametrai - failų vardai.		 - IS NOT A PALINDROME
+ Programa skaito kiekvieną iš nurodytų failų ir surenka kiekvienos abėcėlės raidės pasikartojimo statistiką.		 - IS NOT A PALINDROME
+ Programa sukuria rezultatų failą, kuriame ASCII simbolių pagalba grafiškai pavaizduoja abėcėlės raidžių išsibarstymą: abscisių ašyje - visos abėcėlės raidės, ordinačių ašyje - pasikartojimų kiekis.		 - IS NOT A PALINDROME
+ Taip tarsi gaunamas abėcėlės raidžių pasiskirstymo nagrinėjamuose failuose grafikas.		 - IS NOT A PALINDROME
+
+    Parašykite programą, kurios pirmasis parametras - failo plėtinys, visi kiti - pilni keliai iki norimų nagrinėti katalogų.		 - IS NOT A PALINDROME
+ Programa sukuria naują rezultatų failą ir į jį tvarkingos lentelės pavidalu išveda visų kiekvienoje direktorijoje rastų failų, tenkinančių pirmuoju parametru pateiktą plėtinį, atributus: pavadinimą, sukūrimo datą ir laiką, dydį baitais ir kilobaitais, papildomus atributus ir pirmuosius 16 baitų.		 - IS NOT A PALINDROME
+
+    Parašykite programą, kurios pirmasis parametras - failo dydis baitais, visi kiti - pilni keliai iki norimų nagrinėti katalogų.		 - IS NOT A PALINDROME
+ Programa nurodytuose kataloguose ieško failų, kurių dydis viršija nurodytąjį ir tokiems failams pakeičia jų prieigos atributą į 'read-only'.		 - IS NOT A PALINDROME
+ Visus failus, kurių dydis viršija nurodytąjį, išveda naujame rezultatų faile, šalia kiekvieno failo vardo nurodant ir jo dydį.		 - IS NOT A PALINDROME
+ Rezultatų faile pateikiamas sąrašas turi būti numeruojamas.		 - IS NOT A PALINDROME
+
+    Parašykite programą, kurios pirmasis parametras - ieškomas žodis, visi kiti - pilni keliai iki norimų nagrinėti katalogų.		 - IS NOT A PALINDROME
+ Programa turi kiekviename faile iš nurodytų katalogų atlikti pirmu parametru nurodyto žodžio paiešką nekreipiant dėmesio į žodžio atskirų simbolių registrą (t.		 - IS NOT A PALINDROME
+y.		 - SKIPPED
+ didžiosios ir mažosios nesiskiria).		 - IS NOT A PALINDROME
+ Pirmą kartą vykdant programą, ji sukuria .		 - IS NOT A PALINDROME
+index failą, kuriame surašo informaciją apie žodžio pozicijas failuose (failo vardas, eilutė, kurioje rastas žodis, pozicija nuo failo pradžios, ties kuria rastas žodis).		 - IS NOT A PALINDROME
+ Programa į ekraną išveda laiką, kiek truko paieška.		 - IS NOT A PALINDROME
+ Sekantį kartą vykdant paiešką, programa naudojasi .		 - IS NOT A PALINDROME
+index failu, jeigu toks yra ir ekrane pateikia rezultatus iš indekso bei laiką, kiek truko paieška.		 - IS NOT A PALINDROME
+
