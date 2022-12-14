@@ -3,7 +3,7 @@
 ; Programa, kurios parametrai - failų vardai. 
 ; Programa ieško eilučių, kuriose yra ilgesnių už 5 simbolius palindromų (didžiosios/mažosios raidės, tarpai ir skyryba - ignoruojami). 
 ; Palindromai tai tokios frazės, kuriuos ir iš priekio ir iš galo skaitomos vienodai: "sėdėk užu kėdės", "a roza upala na lapu Azora".
-; Atliko: Oskar Krasev
+; Atliko: Tomas
 
 .model small
 .stack 100H

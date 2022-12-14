@@ -1,11 +1,11 @@
 @echo off
-set arg1=skr
+set arg1=palindrome
 
 tasm.exe %arg1%
 tlink.exe %arg1%
 tasm.exe %arg1%
 tlink.exe %arg1%
-skr e.txt
+palindrome e.txt
 
 
 
