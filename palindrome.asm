@@ -3,7 +3,7 @@
 ; Programa, kurios parametrai - failų vardai. 
 ; Programa ieško eilučių, kuriose yra ilgesnių už 5 simbolius palindromų (didžiosios/mažosios raidės, tarpai ir skyryba - ignoruojami). 
 ; Palindromai tai tokios frazės, kuriuos ir iš priekio ir iš galo skaitomos vienodai: "sėdėk užu kėdės", "a roza upala na lapu Azora".
-; Atliko: Tomas
+; Atliko: Oskar Krasev
 
 .model small
 .stack 100H
@@ -234,15 +234,22 @@ new_buffer:
 _rep:
 	lodsb
 
+	cmp al, 13
+	je sleep
+
+	cmp al, 10
+	je sleep
+	
 	call print_sentence
+
+sleep:
 
 	inc sentence_length
 	inc buffer_counter
 
-	cmp al, '.'
+	cmp al, 13
 	jne purify_sentence		; until al is not '.', remove unnecessary chars like './;'[]{} '
 							; as well as make all letters lowercase
-
 	call find_palindrome	; else find palindrome
 
 purify_sentence:
